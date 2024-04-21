@@ -1,6 +1,7 @@
 add_llvm_component_library(LLVMTransformUtils
   AddDiscriminators.cpp
   AMDGPUEmitPrintf.cpp
+  AntExp.cpp
   ASanStackFrameLayout.cpp
   AssumeBundleBuilder.cpp
   BasicBlockUtils.cpp
@@ -61,6 +62,9 @@ add_llvm_component_library(LLVMTransformUtils
   NameAnonGlobals.cpp
   PredicateInfo.cpp
   PromoteMemoryToRegister.cpp
+#  PRE.cpp
+#  Expression.cpp   
+#  partredel.cpp
   RelLookupTableConverter.cpp
   ScalarEvolutionExpander.cpp
   SCCPSolver.cpp

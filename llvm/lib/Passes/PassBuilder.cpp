@@ -256,6 +256,10 @@
 #include "llvm/Transforms/Vectorize/LoopVectorize.h"
 #include "llvm/Transforms/Vectorize/SLPVectorizer.h"
 #include "llvm/Transforms/Vectorize/VectorCombine.h"
+#include "llvm/Transforms/Utils/AntExp.h"
+//#include "llvm/Transforms/Utils/Expression.h"
+//#include "llvm/Transforms/Utils/InstrUtils.h"
+//#include "llvm/Transforms/Utils/partredel.h"
 #include <optional>
 
 using namespace llvm;
